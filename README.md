@@ -13,7 +13,11 @@ In terms of who would find these insights useful,the proposed target audience fo
 
 #### Data Description:
 
-We will be using MTA Turnstile data, taken from http://web.mta.info/developers/turnstile.html and organized into a SQLite Database locally. We will also be using geographic data found on the NYC Open Data website: https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49 to plot each subway station on a map. Finally, we will include census block and demographic data found on Kaggle: https://www.kaggle.com/zusmani/us-census-2020 to overlay demographic onformation on the map to give a complete view.
+We will be using MTA Turnstile data, taken from http://web.mta.info/developers/turnstile.html and organized into a SQLite Database locally. 
+
+We will also be using geographic data found on the NYC Open Data website: https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49 to plot each subway station on a map. 
+
+Finally, we will include census block and demographic data found on Kaggle: https://www.kaggle.com/zusmani/us-census-2020 to overlay demographic onformation on the map to give a complete view.
 
 The observations found within each dataset are as follows: 
 
