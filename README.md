@@ -1,6 +1,6 @@
 # NYC_MTA_EDA_Project
  
-Nate DiRenzo
+By: Nate DiRenzo
 
 The goal of this project is to perform exploratory data analysis on MTA turnstile data using SQL and Python, generate actionable, revenue-generating insights for a hypothetical business, and present that information in clear and concise manner using Python visualization libraries (pandas, matplotlib, seaborn). As a further goal, I'd like to collate this information with geographic data on New York City's subway stations, and neighborhood demographic information broken down by NYC neighborhood. Ultimately the combined data will provide our target audience with traffic, demographic, and geographic data that helps them better understand where and when would be the best subway stations to reach what demographics.
 
