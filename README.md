@@ -10,7 +10,7 @@ In terms of who stands to benefit from these insights, I believe they would be m
 
 
 Data Description:
-What dataset(s) do you plan to use, and how will you obtain the data?
+
 We will be using MTA Turnstile data, taken from http://web.mta.info/developers/turnstile.html and organized into a SQLite Database locally. We will also be using Census data
 What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
 If modeling, what will you predict as your target?
