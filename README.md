@@ -1,5 +1,7 @@
 # NYC_MTA_EDA_Project
  
+Nate DiRenzo
+
 The goal of this project is to perform exploratory data analysis on MTA turnstile data using SQL and Python, generate actionable, revenue-generating insights for a hypothetical business, and present that information in clear and concise manner using Python visualization libraries (pandas, matplotlib, seaborn). As a further goal, I'd like to collate this information with geographic data on New York City's subway stations, and neighborhood demographic information broken down by NYC neighborhood. Ultimately the combined data will provide our target audience with traffic, demographic, and geographic data that helps them better understand where and when would be the best subway stations to reach what demographics.
 
 Question/need:
@@ -15,10 +17,29 @@ We will be using MTA Turnstile data, taken from http://web.mta.info/developers/t
 
 What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
 
-Turnstile Data 
-If modeling, what will you predict as your target?
+The observations found within each dataset are as follows: 
+
+Each observation in the mta_turnstile data represents an audit event for a specific turnstile, at a specifc station, on a specific day, at a specific time. They contain unique, identifying data such as Control Area (C/A), Remote Unit (UNIT), and Subunit Channel Position (SCP) as well features containing station information, date & time, information, cumulative ticker-style entry and exit measurements, and subway lines accessible from a given station.
+
+Each observation found in the Open Data Subway Station table contains information about a specific station, including name and geo coordinates to position locations on a map. This data should be easily joined with the turnstile data on the station/name columns.
+
+Last, we'd like to connect the merged station and turnstile data with geographic and demographic information taken from the 2020 Census. We'd like to merge two different tables here, one with GEOJSON data for defining the Neighborhood Tabulation Areas (NTA's) on our map, and a further table to align demographic information for each NTA.
+
 Tools:
+
 How do you intend to meet the tools requirement of the project?
+
+This project will call for the use of a number of Python libraries, including sqlalchemy, pandas, matplotlib, geopandas, plotly.
+
 Are you planning in advance to need or use additional tools beyond those required?
+
+I am planning to do some work with spatial tools such as geopandas that go beyond what is required in the project.
+
 MVP Goal:
 What would a minimum viable product (MVP) look like for this project?
+
+An MVP would be a clean turnstile dataset, including new calculated columns highlighting traffic data, aggregations by station, date, and time, and visualizations to provide insights about the most trafficked stations.
+
+Step 2 in the process would be merging in station location data and overlaying it on a map.
+
+Step 3 would be including demographic data from the census, overlaying that on the map we have created for subway stations, and tying that data to NTA's pulled from census geoJSON data to visually represent prevailing demographics in the neighborhoods subway stations may be located.
