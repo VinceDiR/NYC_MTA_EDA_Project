@@ -21,4 +21,4 @@ I pulled all of the MTA Turnstile Data for 2021 [Here.](http://web.mta.info/deve
 - Matplotlib, Seaborn, Pandas, Geopandas, leafmap - Plotting and visualization libraries
 - FuzzyWuzzy, Voila!, pandas-profiling - miscellaneous
 ## Communication
-I will present my findings via a 5 minute executive briefing featuring visualizations created in matplotlib, seaborn, geopandas, and leafmap. I will also render my notebook using Voila! so full functionality is accessible. Slides will be available as PDF in this reppository.
+I will present my findings via a 5 minute executive briefing featuring visualizations created in matplotlib, seaborn, geopandas, and leafmap. I will also render my notebook using Voila! so full functionality is accessible. Slides available as PDF [here.](https://github.com/NateDiR/NYC_MTA_EDA_Project/blob/main/Digital%20Signage%20Pilot%20Program%20Presentation.pdf)
